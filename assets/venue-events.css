@@ -1,0 +1,110 @@
+.wvm-events,
+.wvm-event {
+	max-width: 72rem;
+	margin: 0 auto;
+	padding: 2rem 1.25rem 4rem;
+}
+
+.wvm-events__header h1,
+.wvm-event h1 {
+	margin: 0 0 0.5rem;
+	font-size: 2rem;
+	line-height: 1.2;
+}
+
+.wvm-events__filters {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	align-items: end;
+	margin: 1.5rem 0 2rem;
+}
+
+.wvm-events__filters label {
+	display: flex;
+	flex-direction: column;
+	gap: 0.35rem;
+	font-size: 0.875rem;
+}
+
+.wvm-events__filters select,
+.wvm-events__filters input[type="search"] {
+	min-width: 14rem;
+	padding: 0.45rem 0.6rem;
+}
+
+.wvm-events__grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+	gap: 1rem;
+}
+
+.wvm-events__section {
+	margin-top: 2.5rem;
+}
+
+.wvm-card {
+	border: 1px solid currentColor;
+	border-color: color-mix(in srgb, currentColor 18%, transparent);
+	border-radius: 0.4rem;
+	overflow: hidden;
+	background: transparent;
+}
+
+.wvm-card__link {
+	color: inherit;
+	display: block;
+	text-decoration: none;
+}
+
+.wvm-card__image {
+	display: block;
+	width: 100%;
+	height: 11rem;
+	object-fit: cover;
+}
+
+.wvm-card__body {
+	padding: 0.9rem 1rem 1.1rem;
+}
+
+.wvm-card__body h3 {
+	margin: 0.35rem 0;
+	font-size: 1.125rem;
+}
+
+.wvm-card time,
+.wvm-card__series,
+.wvm-card__venue,
+.wvm-card__cost {
+	margin: 0;
+	font-size: 0.875rem;
+}
+
+.wvm-event__calendar {
+	display: flex;
+	gap: 1rem;
+	padding: 0;
+	list-style: none;
+}
+
+.wvm-event__figure img {
+	width: 100%;
+	height: auto;
+}
+
+.wvm-event__map {
+	width: 100%;
+	min-height: 18rem;
+	border: 0;
+	margin-top: 1.5rem;
+}
+
+.wvm-event__tickets {
+	display: inline-block;
+	margin-top: 1rem;
+	padding: 0.55rem 0.9rem;
+	border: 1px solid currentColor;
+	text-decoration: none;
+	color: inherit;
+}
