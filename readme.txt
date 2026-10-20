@@ -33,6 +33,8 @@ If a theme still registers its own `grb_event` archive at `/events/`, the plugin
 
 Full hook list: see the repository README.
 
+Planned after 0.2.0: an iCalendar feed for a venue or series, cancelling a single date, monthly rules by weekday, WP-CLI commands, and block theme templates.
+
 == Installation ==
 
 1. Upload the plugin directory to `/wp-content/plugins/`, or install the zip from the plugin screen.
